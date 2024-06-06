@@ -64,12 +64,3 @@ button {
 button:hover {
     background-color: #003399;
 }
-
-footer {
-    background-color: #e0e0e0;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}

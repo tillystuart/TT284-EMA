@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Add Club Ride</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="q2a.css" />
+  </head>
+  <body>
+    <form
+      action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php"
+      method="post"
+    >
+      <fieldset>
+        <legend>Ride Information</legend>
+        <div class="form-group">
+          <label for="ride_name">Ride Name:</label>
+          <input id="ride_name" name="ride_name" type="text" required />
+        </div>
+        <div class="form-group">
+          <label for="ride_date">Date:</label>
+          <input id="ride_date" name="ride_date" type="date" required />
+        </div>
+        <div class="form-group">
+          <label for="ride_time">Time:</label>
+          <input id="ride_time" name="ride_time" type="time" required />
+        </div>
+        <div class="form-group">
+          <label for="ride_location">Location:</label>
+          <input id="ride_location" name="ride_location" type="text" required />
+        </div>
+        <div class="form-group">
+          <label for="ride_description">Description:</label>
+          <textarea
+            id="ride_description"
+            name="ride_description"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <input
+          type="hidden"
+          name="SessionIdentifier"
+          value="ff53-dd45-dcba9876-9090"
+        />
+        <div class="form-group">
+          <button type="submit">Add Ride</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
